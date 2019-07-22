@@ -147,9 +147,9 @@ class _CupertinoControlsState extends State<CupertinoControls> {
                     )
                   : Row(
                       children: <Widget>[
-                        _buildSkipBack(iconColor, barHeight),
+                        // _buildSkipBack(iconColor, barHeight),
                         _buildPlayPause(controller, iconColor, barHeight),
-                        _buildSkipForward(iconColor, barHeight),
+                        // _buildSkipForward(iconColor, barHeight),
                         _buildPosition(iconColor),
                         _buildProgressBar(),
                         _buildRemaining(iconColor)
