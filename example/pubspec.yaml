@@ -1,10 +1,13 @@
 name: chewie_example
 description: An example of how to use the chewie for Flutter
 
+environment:
+  sdk: ">=2.0.0-dev.28.0 <4.0.0"
+
 dependencies:
   chewie:
     path: ../
-  video_player: ^0.10.0+2
+  video_player: ^2.7.1
   auto_orientation: ^0.0.2
   flutter:
     sdk: flutter
